@@ -2,7 +2,6 @@ import time
 import asyncio
 import hcskr
 import json
-import keyboard
 
 with open('config.json',encoding='UTF-8') as f:
     config = json.load(f)
