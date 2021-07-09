@@ -2,8 +2,9 @@ import time
 import asyncio
 import hcskr
 import json
+import os
 
-with open('config.json',encoding='UTF-8') as f:
+with open('/Users/kangyoolee/OneDrive/코딩/hcskr_timer/config.json',encoding='UTF-8') as f:
     config = json.load(f)
 
 async def check():
